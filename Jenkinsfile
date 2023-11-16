@@ -33,7 +33,7 @@ pipeline {
 		    steps {
 			    sh 'whoami'
 			    script {
-				    myimage = docker.build("ameintu/devops:${env.BUILD_ID}")
+				    myimage = docker.build("narindraniaina/devops:${env.BUILD_ID}")
 			    }
 		    }
 	    }
