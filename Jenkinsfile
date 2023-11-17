@@ -8,7 +8,7 @@ pipeline {
 		PROJECT_ID = 'cosmic-sensor-404910'
                 CLUSTER_NAME = 'k8s-cluster'
                 LOCATION = 'us-central1-c'
-                CREDENTIALS_ID = 'kubernetes'		
+                CREDENTIALS_ID = '8f4ee636-8a02-48f0-9cc4-0ac9e6aef122'		
 	}
 	
      stages {
